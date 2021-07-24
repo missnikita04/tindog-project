@@ -1,0 +1,186 @@
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "montserrat";
+    font-weight: bold;
+    
+}
+
+
+.big-heading{
+    color: white;
+    font-family:"montserrat";
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: bold;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    
+    /* color: white; */
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 10%; /* top lef-right b0sttom*/
+   
+}
+/* sections */
+.colored-section{
+  background-color:#F25287 ;
+  color: white;
+}
+
+.white-section{
+background-color: white;
+}
+/* navbar */
+
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+.btn{
+    margin:50px 0px;
+
+}
+/* title image */
+.title-image{
+    width: 60%;
+        transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+        /* for z-index  */
+        position: absolute;
+        right:30%;
+
+      
+}
+/* feature */
+
+ p{
+    color:#8f8f8f;
+
+
+}
+#features{
+    text-align: center;
+    padding: 10% 10%;
+   
+    /*  for z-index  */
+    /* z-index: 1  example; */
+    position:relative;
+
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+    color:#F25287;
+    font-size: 0.5rem;
+    padding:40px 60px;
+}
+/* testimonials section*/
+
+#testimonials{
+    
+    color: white;
+    
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.dog-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10%;
+}
+.lady-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+/* press section */
+#press{
+  
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px ;
+}
+.card-deck{
+    display: flex;
+}
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.pricing-column{
+    padding:3% 2% ;
+} 
+@media (max-width:1024px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+/* call to action */
+
+
+
+#cta{
+    
+    padding:60px 40px;
+
+}
+
+
+/* footer */
+.icon{
+    margin-bottom: 1rem;
+    
+}
+p{
+    color: gray;
+    padding: 60px;
+}
+.feature-box-footer{
+    margin-top:40px;
+    padding: 2% 44%;
+    display:flex;
+}
+
